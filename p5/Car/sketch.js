@@ -4,7 +4,9 @@ function setup() {
   createCanvas(1000, 1000);
   fill(243, 255, 30);//yellow
   rect(x, y - 200, 400, 200, 20);//car body
-  rect(x + 100, y- 100, 100, 50)
+  fill(189, 212, 249);//blue
+  rect(x + 25, y - 175, 150, 75, 10);//left window
+  rect(x + 200, y - 175, 150, 75, 10);//right window
   fill(0, 0, 0);//black
   ellipse(x, y, 100, 100);//left tire
   ellipse(x + 400, y, 100, 100);//right tire
